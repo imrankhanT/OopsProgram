@@ -21,7 +21,7 @@ public class deckCards {
 	        }
 	        int count=0;
 	        String arr[][]=new String[SUITS.length][9];
-	        for(int i=0; i<SUITS.length-1; i++)
+	        for(int i=0; i<SUITS.length; i++)
 	        {
 	        System.out.println("Player "+(i+1));
 	        for(int j=0; j<9; j++)

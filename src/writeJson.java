@@ -30,10 +30,10 @@ public class writeJson {
 		jsonArray.add(jsonObject2);
 		jsonArray.add(jsonObject3);
 		
-		FileWriter fw=new FileWriter("/home/bridgeit/eclipse-workspace/OppsPrograms/stock_details.json");
+		FileWriter fw=new FileWriter("/home/bridgeit/eclipse-workspace/OppsPrograms/src/com/bridgelabz/programs/inventryManager.json");
 		fw.write(jsonArray.toJSONString());
 		fw.flush();
-		//fw.close();
+		fw.close();
 	}
 
 }
